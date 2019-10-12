@@ -1,68 +1,98 @@
 
-.container {
+.container {                                               /*pagination css*/
 	margin: 0px auto 0px auto;
 	width: 1200px;
 	background-color: #e3e3e3;
 }
-
-.font
-{
+.social-logo{                                              /*social link logo*/
 	float: right;
 }
 .clearfix{
 /*background-color: pink;*//*if you want to add colour in header so by you can do this */
 }
-
-
+.square{
+	padding-right: 5px;
+	padding-left: 5px;
+}
 .topnav {
-
 	display:flex;
-
-
 }
 .abc{
 	text-decoration:none;
 }
-.topnav .contact{
-	
-	 
-  width: 25%;
-  margin-top: 117px;
-  text-align: center;
-  font-size: 30px;
-  float: left;
-	
+.topnav .contact{	 
+    width:25%;
+    margin-top:70px;
+    text-align:center;
+    font-size:30px;
+    float: left;
+}
+.topnav a{                         /*decoration remove from nav bar*/
+    text-decoration: none;
+}
+.image0{  
+	padding:5px;
+	height:100px;
+	width:100px;
+	float:left;
+}
+.image1{
+	width:1190px;
+	height:500px;
+}
+div.gallery{
+	margin-left:9px;
+	margin-right:auto;
+    float:left;
+    width:24%;
 }
 
-/* Navbar links on mouse-over */
-.topnav a:hover {
-  background-color: yellow;
-  color: black;
- 
+div.gallery img{
+    width:100%;
+    height:auto;
 }
-.topnav a
+
+div.desc{
+    padding:15px;
+    text-align:center;
+}
+
+.offrecord{
+margin-top: 15px;
+	display:inline-block;
+	text-align: center;
+}
+.offrecord1 a{
+text-decoration :none;
+color: red;
+}
+.offrecord1 h2 {
+	font-family: Arial;
+}
+.offrecord1
 {
- text-decoration:none;
-
+float: left;
+width: 21%;
+margin-left: 6px;
 }
-	.image0
-	{
-		height: 150px;
-		width: 150px;
-		float: left;
-	}
-.image1 {
-	width: 1500px;
-	height: 500px;
-	margin: auto
-
+.link-inside-offrecord1{
+	margin-left: 0px;
+	width: 240px;
 }
-
-
-
+.offrecord2{
+	text-align: justify;
+	margin: 6px;
+	float: right;
+	font-size:1.5em;
+	line-height: 1.8;
+	width: 77%;
+	font-family: arial;
+}
 .footer
 {
-display: inline-flex;
-font-family: 
+	padding-left: 5px;
+display: inline-flex; 
+font-size: 1.5em;
+font-family: arial;
 
 }
