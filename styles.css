@@ -66,6 +66,9 @@ margin-top: 15px;
 text-decoration :none;
 color: red;
 }
+.offrecord1 h2 {
+	font-family: Arial;
+}
 .offrecord1
 {
 float: left;
