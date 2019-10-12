@@ -1,0 +1,68 @@
+
+.container {
+	margin: 0px auto 0px auto;
+	width: 1200px;
+	background-color: #e3e3e3;
+}
+
+.font
+{
+	float: right;
+}
+.clearfix{
+/*background-color: pink;*//*if you want to add colour in header so by you can do this */
+}
+
+
+.topnav {
+
+	display:flex;
+
+
+}
+.abc{
+	text-decoration:none;
+}
+.topnav .contact{
+	
+	 
+  width: 25%;
+  margin-top: 117px;
+  text-align: center;
+  font-size: 30px;
+  float: left;
+	
+}
+
+/* Navbar links on mouse-over */
+.topnav a:hover {
+  background-color: yellow;
+  color: black;
+ 
+}
+.topnav a
+{
+ text-decoration:none;
+
+}
+	.image0
+	{
+		height: 150px;
+		width: 150px;
+		float: left;
+	}
+.image1 {
+	width: 1500px;
+	height: 500px;
+	margin: auto
+
+}
+
+
+
+.footer
+{
+display: inline-flex;
+font-family: 
+
+}
